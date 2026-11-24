@@ -1,0 +1,21 @@
+name: qml
+
+channels:
+
+conda-forge
+defaults
+
+dependencies:
+
+python=3.9
+numpy=1.24.3
+scipy
+scikit-learn
+gfortran
+libblas
+liblapack
+numba
+pip
+pip:
+"setuptools<60"
+git+https://github.com/dkhan42/qml2.git
