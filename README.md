@@ -107,7 +107,22 @@ The training and test datasets are also provided in the repository.
 
 ## References
 
-1. Hong Nhung Vu, Angel Jose Pérez-Jiménez, Juan Carlos Sancho-García, Carlo Adamo, and Eric Brémond, *Nonempirical Double-hybrid Functionals Entering the AI Field: the Adaptative LS1DH model*, ChemRxiv, **2026**
+```
+@article{
+doi:10.26434/chemrxiv.15012736/v1,
+author = {Hong Nhung Vu  and Angel Jose Pérez-Jiménez  and Juan Carlos Sancho-García  and Carlo Adamo  and Eric Brémond },
+title = {Nonempirical Double-hybrid Functionals Entering the AI Field: the Adaptative LS1DH model},
+journal = {ChemRxiv},
+volume = {2026},
+number = {1124},
+pages = {},
+year = {2026},
+doi = {10.26434/chemrxiv.15012736/v1},
+URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15012736/v1},
+eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15012736/v1},
+abstract = {We introduce a machine-learning-assisted nonempirical double-hybrid density-functional approximation, dubbed adaptative LS1DH or aLS1DH, which combines the theoretical constraints of the linearly scaled one-parameter double-hybrid (LS1DH) model with system-specific flexibility. Based on kernel ridge regression (KRR) and convolutional many-body distribution function (cMBDF) representations, aLS1DH predicts optimal system-dependent fractions of nonlocal exchange and correlation while preserving size consistency. Its performance is assessed on the extended GMTKN55 and on the recently developed CYCLO70. The aLS1DH model consistently improves upon its parent functional, PBE0-DH, rivaling the latest machine-learning-based functionals such as skala functional. These results highlight the potential of machine learning to improve the accuracy of nonempirical double hybrids while retaining their underlying theoretical constraints.}}
+```
+
 
 Additional references concerning the [cMBDF](https://github.com/dkhan42/cMBDF) molecular representation and [Kernel Ridge Regression](https://github.com/dkhan42/qml2) should also be acknowledged where appropriate.
 
